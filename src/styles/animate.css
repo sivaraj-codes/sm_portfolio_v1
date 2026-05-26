@@ -1,0 +1,38 @@
+/* ─── Keyframes ──────────────────────────────────────── */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ─── Hero stagger ───────────────────────────────────── */
+.hero-animate {
+    opacity: 0;
+    animation: fadeUp var(--duration-slower) var(--ease-out) forwards;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── Primary Meta ───────────────────────────────────── -->
+  <title>Sivaraj M — React Frontend Developer</title>
+  <meta name="description"
+    content="Frontend Developer Portfolio of Sivaraj M — React.js Developer skilled in TypeScript, Redux Toolkit, modern UI development, performance optimization, and scalable web applications." />
+  <meta name="author" content="Sivaraj M" />
+  <meta name="keywords"
+    content="React Developer, Frontend Developer, TypeScript, Redux Toolkit, JavaScript, Chennai, India" />
+
+  <!-- ── Favicon ────────────────────────────────────────── -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%235DCAA5'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Georgia,serif' font-size='16' font-weight='bold' fill='%23071c14'>SM</text></svg>" />
+  <!-- <link rel="alternate icon" href="/favicon.ico" /> -->
+
+  <!-- ── Theme color (browser chrome on mobile) ─────────── -->
+  <meta name="theme-color" content="#5DCAA5" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#0F6E56" media="(prefers-color-scheme: light)" />
+
+  <!-- ── Open Graph (Facebook, LinkedIn, WhatsApp) ─────────── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sivaraj-portfolio.netlify.app/" />
+  <meta property="og:title" content="Sivaraj M — React Frontend Developer" />
+  <meta property="og:description"
+    content="React Developer with 3 years of experience building scalable web apps with TypeScript, Redux Toolkit, and modern UI libraries." />
+  <meta property="og:image" content="https://sivaraj-portfolio.netlify.app/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Sivaraj M Portfolio" />
+
+  <!-- ── Twitter / X Card ──────────────────────────────── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sivaraj M — React Frontend Developer" />
+  <meta name="twitter:description"
+    content="React Developer with 3 years of experience building scalable web apps with TypeScript, Redux Toolkit, and modern UI libraries." />
+  <meta name="twitter:image" content="https://sivaraj-portfolio.netlify.app/og-image.png" />
+
+  <!-- ── Canonical URL ─────────────────────────────────── -->
+  <link rel="canonical" href="https://sivaraj-portfolio.netlify.app/" />
+
+  <!-- ── Fonts ─────────────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+    rel="stylesheet" />
+
+  <!-- ── Prevent flash of wrong theme ──────────────────── -->
+  <script>
+    (function () {
+      const stored = localStorage.getItem('portfolio-theme');
+      const system = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', stored || system);
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
