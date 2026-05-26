@@ -9,14 +9,14 @@ export const portfolioData: PortfolioData = {
     years: 3,
     links: [
       {
-        label: "Github",
-        url: "https://github.com/sivaraj-codes",
-        icon: "github",
-      },
-      {
         label: "LinkedIn",
         url: "https://www.linkedin.com/in/sivaraj-dev",
         icon: "linkedin",
+      },
+      {
+        label: "Github",
+        url: "https://github.com/sivaraj-codes",
+        icon: "github",
       },
       {
         label: "sivaraj.webdev@gmail.com",

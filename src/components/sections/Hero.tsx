@@ -1,6 +1,8 @@
 import type { HeroData } from "../../types";
 import { Button } from "../ui/Button";
 import heroStyles from "./Hero.module.css";
+
+const emojiMap: Record<string, string> = { mail: "📧", phone: "📞" };
 interface HeroProps {
   data: HeroData;
 }
@@ -52,7 +54,7 @@ export const Hero = ({ data }: HeroProps) => {
                     : undefined
                 }
               >
-                {link.label} {""}
+                {emojiMap?.[link.icon] ?? ""} {link.label} {""}
               </a>
             </li>
           ))}
