@@ -1,0 +1,29 @@
+.footer {
+    border-top: 1px solid var(--color-border);
+}
+
+.inner {
+    padding-block: var(--space-14);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-6);
+}
+
+.copy,
+.location {
+    font-size: var(--fs-sm);
+    color: var(--color-text-muted);
+}
+
+.dot {
+    color: var(--color-accent);
+}
+
+@media (max-width: 600px) {
+    .inner {
+        flex-direction: column;
+        text-align: center;
+    }
+}
