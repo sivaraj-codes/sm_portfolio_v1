@@ -24,6 +24,7 @@ export const Certifications = ({ data }: CertificationsProps) => {
               className={styles.link}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`View ${cert.name} certificate`}
             >
               View certificate ↗
             </a>
