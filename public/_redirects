@@ -1,0 +1,8 @@
+# Netlify _redirects file
+# Place this in the /public folder of your React project
+
+# Force HTTPS (Netlify handles this automatically, but good to be explicit)
+http://sivaraj-portfolio.netlify.app/* https://sivaraj-portfolio.netlify.app/:splat 301!
+
+# SPA fallback — all routes serve index.html (required for React Router)
+/*    /index.html   200

@@ -1,0 +1,8 @@
+# robots.txt for https://sivaraj-portfolio.netlify.app/
+# Generated for Sivaraj M — React Frontend Developer
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sivaraj-portfolio.netlify.app/sitemap.xml
