@@ -30,6 +30,17 @@ export const Projects = ({ data }: ProjectsProps) => {
                 </li>
               ))}
             </ul>
+            {project.url && (
+              <a
+                href={project.url}
+                className={styles.visitLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`View ${project.name} Project`}
+              >
+                View Project ↗
+              </a>
+            )}
           </article>
         ))}
       </div>
