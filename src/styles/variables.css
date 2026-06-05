@@ -102,7 +102,8 @@
 
     /* Text */
     --color-text: #f0eee8;
-    --color-text-muted: #888780;
+    /* --color-text-muted: #888780; */
+    --color-text-muted: #AEADA8;
     --color-text-faint: #555450;
 
     /* Accent (teal-green) */
