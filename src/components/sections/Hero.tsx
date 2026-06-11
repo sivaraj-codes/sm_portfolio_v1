@@ -9,7 +9,10 @@ interface HeroProps {
 
 export const Hero = ({ data }: HeroProps) => {
   return (
-    <section id="home" className={`max-content-wrapper ${heroStyles.hero}`}>
+    <section
+      id="home"
+      className={`max-content-wrapper hero-animate ${heroStyles.hero}`}
+    >
       <div className={heroStyles["text-wrapper"]}>
         <p className={heroStyles.eyebrow}>{data.eyebrow}</p>
         <h1 className={heroStyles.name}>{data.name}</h1>
