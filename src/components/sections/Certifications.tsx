@@ -16,7 +16,7 @@ export const Certifications = ({ data }: CertificationsProps) => {
       <SectionHeader label="Learning" title="Certifications" />
       <div className={styles.cardsWrapper}>
         {data.map((cert) => (
-          <article key={cert.name} className={styles.card}>
+          <article key={cert.name} className={`${styles.card} reveal-card `}>
             <p className={styles.issuer}>{cert.issuer}</p>
             <h3 className={styles.name}>{cert.name}</h3>
             <a

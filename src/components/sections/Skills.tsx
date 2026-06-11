@@ -16,7 +16,7 @@ export const Skills = ({ data }: SkillsProps) => {
       <SectionHeader label="Tech" title="Skills & tools" />
       <div className={styles.cardsWrapper}>
         {data.map((group) => (
-          <article className={styles.card}>
+          <article className={`${styles.card} reveal-card `}>
             <h3 className={styles.groupTitle}>{group.group}</h3>
             <ul className={styles.tags}>
               {group.tags.map((tag) => (

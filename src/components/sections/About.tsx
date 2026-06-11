@@ -22,7 +22,10 @@ export const About = ({ data }: AboutProps) => {
         </div>
         <ul className={aboutStyles.statsWrapper}>
           {data.stats.map((st) => (
-            <li key={st.label} className={aboutStyles.statCard}>
+            <li
+              key={st.label}
+              className={`${aboutStyles.statCard} reveal-card`}
+            >
               <span className={aboutStyles.statNum}>{st.num}</span>
               <span className={aboutStyles.statLabel}>{st.label}</span>
             </li>

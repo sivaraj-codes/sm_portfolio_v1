@@ -16,7 +16,7 @@ export const Projects = ({ data }: ProjectsProps) => {
       <SectionHeader label="Work" title="Featured projects" />
       <div className={styles.cardsWrapper}>
         {data.map((project) => (
-          <article className={styles.card}>
+          <article className={`${styles.card} reveal-card `}>
             <div className={styles.icon} aria-hidden="true">
               {project.icon}
             </div>
