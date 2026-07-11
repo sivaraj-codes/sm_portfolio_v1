@@ -38,7 +38,7 @@ export const portfolioData: PortfolioData = {
     stats: [
       { num: "3+", label: "Years experience" },
       { num: "60%", label: "Duplicate code cut" },
-      { num: "3", label: "Team size led" },
+      { num: "5", label: "Schedule-3 Team size led" },
       { num: "2", label: "Certifications" },
     ],
   },
