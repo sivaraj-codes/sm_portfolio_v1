@@ -32,13 +32,13 @@ export const portfolioData: PortfolioData = {
   about: {
     paragraphs: [
       "React Developer (SDE-II) based in Chennai, Tamil Nadu, with 3 years of hands-on experience building and leading production-grade web applications in fintech/accounting products.",
-      "At Kitaabh Technologies, I led a 5-person team building a large-scale, schema-driven data entry system spanning 30 sections and 100+ sub-sections, and re-architected a core transaction module into ~60 reusable React components — cutting duplicate code by ~60% and reducing module-level bugs from ~100 to ~15.",
+      "At Kitaabh Technologies, I built a large-scale, schema-driven data entry system spanning 30 sections and 100+ sub-sections, and re-architected a core transaction module into ~60 reusable React components — cutting duplicate code by ~40% and reducing module-level bugs from ~100 to ~30.",
       "I hold a B.E. in Mechanical Engineering and a Full Stack MERN certification, bringing an analytical mindset to every frontend challenge — along with self-directed practice in testing (Vitest, RTL, MSW) to round out reliability across the stack.",
     ],
     stats: [
       { num: "3+", label: "Years experience" },
-      { num: "60%", label: "Duplicate code cut" },
-      { num: "5", label: "Schedule-3 Team size led" },
+      { num: "40%", label: "Duplicate code cut" },
+      { num: "30", label: "Schedule-3 sections built" },
       { num: "2", label: "Certifications" },
     ],
   },
@@ -50,14 +50,15 @@ export const portfolioData: PortfolioData = {
       location: "Hyderabad, India",
       date: "Feb 2024 - May 2026",
       points: [
-        "Refactored the sales transaction module into ~60 reusable React components, extending across 10 transaction entry modules — cutting duplicate code by ~60% and reducing bugs from ~100 to ~15",
+        "Refactored the sales transaction module into ~60 reusable React components, extending across 10 transaction entry modules — cutting duplicate code by ~40% and reducing bugs from ~100 to ~30",
         "Improved transaction module render speed by ~60% for a 300+ client base using conditional rendering strategies",
         "Built complex data tables with AgGrid and PrimeReact DataTable for large financial datasets (thousands to lakhs of records), including bulk item entry with barcode scanner (USB keyboard-emulation) integration",
-        "Led a 5-person team to build the Schedule3 module — a schema-driven data entry system spanning 30 sections and 100+ sub-sections, with dynamic tables, columns, and validation rendered from backend schema",
+        "Developed the Schedule3 module — a schema-driven data entry system spanning 30 sections and 100+ sub-sections, with dynamic tables, columns, and validation rendered from backend schema",
         "Built role-based and module-level access control across 3 roles (Auditor, Admin, Superadmin) using React Router v6 protected routes",
         "Integrated React frontends with heterogeneous backend systems (Go, Python, Node.js), implementing secure authentication with JWT access and refresh tokens",
+        "Implemented unit and component tests using Vitest, React Testing Library, and MSW to validate components, custom hooks, and API interactions, improving reliability and reducing regressions",
         "Used AI-assisted development tools (Windsurf, GitHub Copilot, ChatGPT) for faster prototyping, debugging, and refactoring",
-        "Collaborated with CA, QC, backend, and product teams during requirement clarification, testing, and release cycles via GitHub and Bitbucket PR workflows and peer code reviews",
+        "Collaborated with CA, QC, backend, and product teams during requirement clarification and testing, via GitHub and Bitbucket pull request workflows and peer code reviews.",
         "Mentored junior developers as an SDE2 on component design, debugging, and React best practices",
       ],
     },
@@ -105,7 +106,7 @@ export const portfolioData: PortfolioData = {
     {
       icon: "📑",
       name: "Kitaabh — Transaction & Schedule3 Modules",
-      desc: "Led a 5-person team rebuilding core transaction and schedule modules — re-architecting a sales transaction module into ~60 reusable components (10 transaction types, ~60% less duplication), and building a schema-driven Schedule3 system spanning 30 sections and 100+ sub-sections with dynamic tables, columns, and validation.",
+      desc: "Rebuilt core transaction and schedule modules — re-architecting a sales transaction module into ~60 reusable components (10 transaction types, ~40% less duplication), and building a schema-driven Schedule3 system spanning 30 sections and 100+ sub-sections with dynamic tables, columns, and validation.",
       tags: [
         "React.js",
         "Custom Hooks",
@@ -125,13 +126,6 @@ export const portfolioData: PortfolioData = {
       tags: ["React.js", "Formik", "Yup", "Node.js", "Express.js", "MongoDB"],
       url: "https://daily-savings.netlify.app/",
     },
-    // {
-    //   icon: "🧪",
-    //   name: "React Testing",
-    //   desc: "Studied and practiced advanced React testing patterns through a structured testing curriculum on a modern Vite/Vitest/RTL/MSW stack — covering per-test API mock overrides, loading-state testing with controlled promises, and custom hook testing with renderHook.",
-    //   tags: ["Vite", "Vitest", "React Testing Library", "MSW"],
-    //   url: "",
-    // },
   ],
 
   certifications: [
