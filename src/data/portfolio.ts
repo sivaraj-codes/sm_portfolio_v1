@@ -4,8 +4,8 @@ export const portfolioData: PortfolioData = {
   hero: {
     eyebrow: "Frontend Developer",
     name: "Sivaraj M",
-    title: "React Developer · 3 Years of Experience",
-    desc: "I build scalable, maintainable web applications with React. Passionate about clean UI, thoughtful state management, and performance-driven engineering.",
+    title: "React Developer (SDE-II) · 3 Years of Experience",
+    desc: "I build scalable, maintainable web applications with React — leading schema-driven systems, re-architecting legacy modules into reusable components, and shipping performance-focused, production-grade UI.",
     years: 3,
     links: [
       {
@@ -31,40 +31,44 @@ export const portfolioData: PortfolioData = {
 
   about: {
     paragraphs: [
-      "React Developer based in Chennai, Tamil Nadu, with 3 years of hands-on experience building production-grade web applications. I specialise in component architecture, state management, and form handling.",
-      "At Kitaabh Technologies, I developed reusable UI component libraries used across multiple products, integrating Redux Toolkit, Formik, and PrimeReact to deliver seamless user experiences.",
-      "I hold a B.E. in Mechanical Engineering and a Full Stack MERN certification, bringing an analytical mindset to every frontend challenge.",
+      "React Developer (SDE-II) based in Chennai, Tamil Nadu, with 3 years of hands-on experience building and leading production-grade web applications in fintech/accounting products.",
+      "At Kitaabh Technologies, I led a 3-person team building a large-scale, schema-driven data entry system spanning 30 sections and 100+ sub-sections, and re-architected a core transaction module into ~60 reusable React components — cutting duplicate code by ~60% and reducing module-level bugs from ~100 to ~15.",
+      "I hold a B.E. in Mechanical Engineering and a Full Stack MERN certification, bringing an analytical mindset to every frontend challenge — along with self-directed practice in testing (Vitest, RTL, MSW) to round out reliability across the stack.",
     ],
     stats: [
       { num: "3+", label: "Years experience" },
-      // { num: "10+", label: "React projects" },
+      { num: "60%", label: "Duplicate code cut" },
+      { num: "3", label: "Team size led" },
       { num: "2", label: "Certifications" },
-      { num: "B.E.", label: "Mech. Engg." },
     ],
   },
 
   experience: [
     {
-      role: "React JS Developer",
+      role: "React JS Developer (SDE-II)",
       company: "Kitaabh Technologies Pvt Ltd.",
       location: "Hyderabad, India",
       date: "Feb 2024 - May 2026",
       points: [
-        "Developed reusable and scalable UI components used across multiple projects",
-        "Built and maintained web applications using React.js following best practices",
-        "Implemented state management with Redux Toolkit for efficient data flow",
-        "Designed and handled forms using Formik with validation logic",
-        "Integrated PrimeReact UI components and React Router for seamless navigation",
+        "Refactored the sales transaction module into ~60 reusable React components, extending across 10 transaction entry modules — cutting duplicate code by ~60% and reducing bugs from ~100 to ~15",
+        "Improved transaction module render speed by ~60% for a 300+ client base using conditional rendering strategies",
+        "Built complex data tables with AgGrid and PrimeReact DataTable for large financial datasets (thousands to lakhs of records), including bulk item entry with barcode scanner (USB keyboard-emulation) integration",
+        "Led a 5-person team to build the Schedule3 module — a schema-driven data entry system spanning 30 sections and 100+ sub-sections, with dynamic tables, columns, and validation rendered from backend schema",
+        "Built role-based and module-level access control across 3 roles (Auditor, Admin, Superadmin) using React Router v6 protected routes",
+        "Integrated React frontends with heterogeneous backend systems (Go, Python, Node.js), implementing secure authentication with JWT access and refresh tokens",
+        "Used AI-assisted development tools (Windsurf, GitHub Copilot, ChatGPT) for faster prototyping, debugging, and refactoring",
+        "Collaborated with CA, QC, backend, and product teams during requirement clarification, testing, and release cycles via GitHub and Bitbucket PR workflows and peer code reviews",
+        "Mentored junior developers as an SDE2 on component design, debugging, and React best practices",
       ],
     },
     {
-      role: "React JS Developer",
+      role: "React JS Developer (SDE-I)",
       company: "Lotus Wireless Technologies Pvt Ltd.",
       location: "Visakhapatnam, India",
       date: "Sep 2023 - Jan 2024",
       points: [
-        "Contributed to front-end development using React.js",
-        "Collaborated with cross-functional teams to deliver responsive UI features",
+        "Started on the product's transaction module screens, learning production-grade React development, Git workflows, and PR practices",
+        "Built reusable UI components and integrated REST APIs for dynamic data rendering under senior developer guidance",
       ],
     },
   ],
@@ -74,22 +78,34 @@ export const portfolioData: PortfolioData = {
       group: "Core Frontend",
       tags: ["React.js", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3"],
     },
-    { group: "State Management", tags: ["Redux Toolkit", "React Context"] },
-    { group: "Forms & Routing", tags: ["Formik", "React Router", "Yup"] },
+    {
+      group: "State Management",
+      tags: ["Redux Toolkit", "RTK Query", "React Context"],
+    },
+    { group: "Forms & Routing", tags: ["Formik", "Yup", "React Router v6"] },
     {
       group: "UI Libraries",
-      tags: ["PrimeReact", "Material UI", "Responsive Design"],
+      tags: ["AgGrid", "PrimeReact", "Material UI", "Responsive Design"],
     },
-    { group: "Testing", tags: ["Jest", "Vitest", "React Testing Library"] },
-    { group: "Backend & DB", tags: ["Node.js", "Express.js", "MongoDB"] },
-    { group: "Tooling", tags: ["Git", "Vite", "VS Code", "Figma"] },
+    {
+      group: "Testing",
+      tags: ["Jest", "Vitest", "React Testing Library", "MSW"],
+    },
+    {
+      group: "Backend & DB",
+      tags: ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT"],
+    },
+    {
+      group: "Tooling",
+      tags: ["Git", "GitHub", "Bitbucket", "Vite", "VS Code", "Figma"],
+    },
   ],
 
   projects: [
     {
       icon: "📑",
-      name: "Kitaabh",
-      desc: "Worked on scalable transaction and accounting modules using reusable React components, Redux Toolkit state management, and PrimeReact data tables. Contributed to improving maintainability, reducing component duplication, and optimizing form workflows and navigation across the product suite.",
+      name: "Kitaabh — Transaction & Schedule3 Modules",
+      desc: "Led a 5-person team rebuilding core transaction and schedule modules — re-architecting a sales transaction module into ~60 reusable components (10 transaction types, ~60% less duplication), and building a schema-driven Schedule3 system spanning 30 sections and 100+ sub-sections with dynamic tables, columns, and validation.",
       tags: [
         "React.js",
         "Custom Hooks",
@@ -105,10 +121,17 @@ export const portfolioData: PortfolioData = {
     {
       icon: "💰",
       name: "Daily Savings Collection App",
-      desc: "Developed a full-stack daily savings and accounting application with dynamic form handling, conditional rendering, and validation using Formik and Yup. Built REST APIs and integrated MongoDB for secure data management and transaction tracking.",
+      desc: "Developed a full-stack daily savings and accounting application with dynamic form handling, conditional rendering, and validation using Formik and Yup. Built REST APIs and integrated MongoDB for secure data management and transaction tracking. Used by 10 real-time customers for daily savings entry.",
       tags: ["React.js", "Formik", "Yup", "Node.js", "Express.js", "MongoDB"],
       url: "https://daily-savings.netlify.app/",
     },
+    // {
+    //   icon: "🧪",
+    //   name: "React Testing",
+    //   desc: "Studied and practiced advanced React testing patterns through a structured testing curriculum on a modern Vite/Vitest/RTL/MSW stack — covering per-test API mock overrides, loading-state testing with controlled promises, and custom hook testing with renderHook.",
+    //   tags: ["Vite", "Vitest", "React Testing Library", "MSW"],
+    //   url: "",
+    // },
   ],
 
   certifications: [
