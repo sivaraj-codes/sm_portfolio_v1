@@ -32,7 +32,7 @@ export const portfolioData: PortfolioData = {
   about: {
     paragraphs: [
       "React Developer (SDE-II) based in Chennai, Tamil Nadu, with 3 years of hands-on experience building and leading production-grade web applications in fintech/accounting products.",
-      "At Kitaabh Technologies, I led a 3-person team building a large-scale, schema-driven data entry system spanning 30 sections and 100+ sub-sections, and re-architected a core transaction module into ~60 reusable React components — cutting duplicate code by ~60% and reducing module-level bugs from ~100 to ~15.",
+      "At Kitaabh Technologies, I led a 5-person team building a large-scale, schema-driven data entry system spanning 30 sections and 100+ sub-sections, and re-architected a core transaction module into ~60 reusable React components — cutting duplicate code by ~60% and reducing module-level bugs from ~100 to ~15.",
       "I hold a B.E. in Mechanical Engineering and a Full Stack MERN certification, bringing an analytical mindset to every frontend challenge — along with self-directed practice in testing (Vitest, RTL, MSW) to round out reliability across the stack.",
     ],
     stats: [
