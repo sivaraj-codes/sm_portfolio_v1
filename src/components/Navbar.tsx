@@ -89,6 +89,8 @@ export const Navbar = () => {
           ))}
         </nav>
       )}
+      {/* progress */}
+      <div className="scroll-progress"></div>
     </header>
   );
 };
