@@ -32,7 +32,7 @@ export const portfolioData: PortfolioData = {
   about: {
     paragraphs: [
       "React Developer (SDE-II) based in Chennai, Tamil Nadu, with 3 years of hands-on experience building and leading production-grade web applications in fintech/accounting products.",
-      "At Kitaabh Technologies, I built a large-scale, schema-driven data entry system spanning 30 sections and 100+ sub-sections, and re-architected a core transaction module into ~60 reusable React components — cutting duplicate code by ~40% and reducing module-level bugs from ~100 to ~30.",
+      "At Kitaabh Technologies, I built a large-scale, schema-driven data entry system (Schedule3 module) spanning 30 sections and 100+ sub-sections, and re-architected a core transaction module into ~60 reusable React components — cutting duplicate code by ~40% and reducing module-level bugs from ~100 to ~20.",
       "I hold a B.E. in Mechanical Engineering and a Full Stack MERN certification, bringing an analytical mindset to every frontend challenge — along with self-directed practice in testing (Vitest, RTL, MSW) to round out reliability across the stack.",
     ],
     stats: [
@@ -50,16 +50,16 @@ export const portfolioData: PortfolioData = {
       location: "Hyderabad, India",
       date: "Feb 2024 - May 2026",
       points: [
-        "Refactored the sales transaction module into ~60 reusable React components, extending across 10 transaction entry modules — cutting duplicate code by ~40% and reducing bugs from ~100 to ~30",
-        "Improved transaction module render speed by ~60% for a 300+ client base using conditional rendering strategies",
+        "Re-architected the sales transaction module into ~60 reusable React and TypeScript components, extending across 10 transaction entry modules — cutting duplicate code by ~40% and reducing bugs from ~100 to ~20",
+        "Optimized application performance using React.memo, useMemo, useCallback, lazy loading, conditional rendering, and code splitting, improving load and rendering performance by ~30% for a 300+ client base",
         "Built complex data tables with AgGrid and PrimeReact DataTable for large financial datasets (thousands to lakhs of records), including bulk item entry with barcode scanner (USB keyboard-emulation) integration",
         "Developed the Schedule3 module — a schema-driven data entry system spanning 30 sections and 100+ sub-sections, with dynamic tables, columns, and validation rendered from backend schema",
-        "Built role-based and module-level access control across 3 roles (Auditor, Admin, Superadmin) using React Router v6 protected routes",
-        "Integrated React frontends with heterogeneous backend systems (Go, Python, Node.js), implementing secure authentication with JWT access and refresh tokens",
+        "Built scalable routing architecture using React Router v6, implementing protected routes, nested layouts, lazy-loaded modules, and role-based access control",
+        "Integrated React frontends with heterogeneous backend systems (Go, Python, Node.js) using RESTful APIs, asynchronous data fetching, JSON data exchange, JWT authentication, and session management",
         "Implemented unit and component tests using Vitest, React Testing Library, and MSW to validate components, custom hooks, and API interactions, improving reliability and reducing regressions",
-        "Used AI-assisted development tools (Windsurf, GitHub Copilot, ChatGPT) for faster prototyping, debugging, and refactoring",
-        "Collaborated with CA, QC, backend, and product teams during requirement clarification and testing, via GitHub and Bitbucket pull request workflows and peer code reviews.",
-        "Mentored junior developers as an SDE2 on component design, debugging, and React best practices",
+        "Leveraged AI-assisted development tools (Windsurf, GitHub Copilot, ChatGPT) to accelerate prototyping, debugging, refactoring, and documentation",
+        "Collaborated with Product, QA, Chartered Accountants, and backend teams to translate business requirements into scalable technical solutions, participating in architecture discussions and code reviews via GitHub and Bitbucket pull request workflows",
+        "Mentored junior developers as an SDE2 on reusable component architecture, React best practices, Git workflows, debugging techniques, and testing practices",
       ],
     },
     {
@@ -68,8 +68,10 @@ export const portfolioData: PortfolioData = {
       location: "Visakhapatnam, India",
       date: "Sep 2023 - Jan 2024",
       points: [
-        "Started on the product's transaction module screens, learning production-grade React development, Git workflows, and PR practices",
-        "Built reusable UI components and integrated REST APIs for dynamic data rendering under senior developer guidance",
+        "Contributed to the development of production-grade React.js applications for accounting and financial modules",
+        "Built reusable React components and integrated RESTful APIs using React.js and TypeScript",
+        "Worked with Formik, React Router, responsive UI development, and modern frontend development practices",
+        "Participated in debugging, code reviews, Git workflows, and Agile development under senior developer guidance",
       ],
     },
   ],
@@ -98,7 +100,16 @@ export const portfolioData: PortfolioData = {
     },
     {
       group: "Tooling",
-      tags: ["Git", "GitHub", "Bitbucket", "Vite", "VS Code", "Figma"],
+      tags: [
+        "Git",
+        "GitHub",
+        "Bitbucket",
+        "Vite",
+        "VS Code",
+        "GitHub Copilot",
+        "ChatGPT",
+        "Windsurf",
+      ],
     },
   ],
 
@@ -130,14 +141,14 @@ export const portfolioData: PortfolioData = {
 
   certifications: [
     {
-      name: "Full Stack Developer (MERN)",
-      issuer: "GUVI",
-      url: "https://www.guvi.in/share-certificate/1357it656v8N4h83Qm",
-    },
-    {
       name: "React JS",
       issuer: "GUVI",
       url: "https://www.guvi.in/share-certificate/438z61F379VH5M0625",
+    },
+    {
+      name: "Full Stack Developer (MERN)",
+      issuer: "GUVI",
+      url: "https://www.guvi.in/share-certificate/1357it656v8N4h83Qm",
     },
   ],
 
